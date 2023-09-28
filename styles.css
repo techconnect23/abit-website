@@ -15,3 +15,41 @@
 .lead {
     text-align: justify;
 }
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.testimonila-img {
+    border: 10px solid #FAF3F0;
+    border-radius: 50%;
+    z-index: 10;
+    position: relative;
+}
+
+.testimonial-content {
+    z-index: 5;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 30px;
+    top: -25px;
+    position: relative;
+}
+
+.testimonial-container p {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+}
+
+.dashborad-img {
+    border-radius: 10px;
+    
+}
