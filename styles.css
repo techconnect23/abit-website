@@ -1,5 +1,5 @@
 .background {
-    background-color: #9E9FA5;
+    background-color: #ffe1cd;
 }
 
 .contact-icons {
@@ -7,9 +7,17 @@
     height: 3rem;
 }
 
-.navlink-color {
+.nav-link {
     color: #FFF;
     font-weight: 600;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+  
+.nav-link:hover {
+    color: #FF5733;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 10px#7d2c19;
 }
 
 .lead {
@@ -54,3 +62,22 @@
     width: 100%;
     max-width: 1000px;
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F5F5F5;
+  }
+  
+
+  header {
+    background-color: #deb193;
+    color: #FFF;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
