@@ -1,5 +1,5 @@
 .background {
-    background-color: #ffe1cd;
+    background-color: #9E9FA5;
 }
 
 .contact-icons {
@@ -74,10 +74,22 @@ body {
   
 
   header {
-    background-color: #deb193;
+    background-color: #5e5d5cfb;
     color: #FFF;
     padding: 40px;
     text-align: center;
     border-radius: 20px;
+    margin-top:10px;
+  }
+
+
+  @media (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    .nav-link {
+        margin: 0;
+    }
   }
   
