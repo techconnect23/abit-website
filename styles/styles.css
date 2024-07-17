@@ -162,4 +162,8 @@ body {
     .carousel-item {
         height: 500px;
     }
+
+    .font-size-small {
+        font-size: medium !important;
+    }
 }
