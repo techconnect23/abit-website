@@ -94,6 +94,11 @@
     color: black;
 }
 
+.founders {
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 20px;
+}
 
 body {
     font-family: Arial, sans-serif;
